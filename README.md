@@ -44,9 +44,11 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 ### 训练过程的可视化
 
 使用Tensorboard进行训练过程中损失和mAP曲线的可视化。以下是训练集上的loss曲线：
+
 ![image-20240528213452457-6903294](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/e43204e7-d67b-4750-8dd3-902710e7e4e5)
 
 以下是验证集上的mAP曲线：
+
 ![image-20240528213415954-6903260](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/d1ec3900-0a92-4f30-a5aa-b7900324ea5b)
 
 
@@ -57,18 +59,21 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 从VOC 2007验证集中随机挑选4张图像进行预测，结果如下：
 
 - 图像1预测结果：
+
 ![1](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/410f8904-8eeb-43f0-8bc0-beda24e5d4ca)
 
 
-
 - 图像2预测结果：
+
 ![4](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/3bfda2da-c6a2-4561-a4cd-e15dc939a034)
 
 
 - 图像3预测结果：
-- ![6](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/c3560628-1545-40dc-bf3b-bfffab2eec9b)
+  
+![6](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/c3560628-1545-40dc-bf3b-bfffab2eec9b)
 
 - 图像4预测结果：
+
 ![8](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/47dc53a1-fdaf-4849-8dac-f62b68d32cfe)
 
 
