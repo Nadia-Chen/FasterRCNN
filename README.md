@@ -44,12 +44,11 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 ### 训练过程的可视化
 
 使用Tensorboard进行训练过程中损失和mAP曲线的可视化。以下是训练集上的loss曲线：
-
-![image-20240528213452457](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/image-20240528213452457-6903294.png)
+![image-20240528213452457-6903294](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/e43204e7-d67b-4750-8dd3-902710e7e4e5)
 
 以下是验证集上的mAP曲线：
+![image-20240528213415954-6903260](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/d1ec3900-0a92-4f30-a5aa-b7900324ea5b)
 
-![image-20240528213415954](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/image-20240528213415954-6903260.png)
 
 ## 实验结果
 
@@ -58,20 +57,20 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 从VOC 2007验证集中随机挑选4张图像进行预测，结果如下：
 
 - 图像1预测结果：
+![1](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/410f8904-8eeb-43f0-8bc0-beda24e5d4ca)
 
-  ![图像1预测结果](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/1.jpg)
+
 
 - 图像2预测结果：
+![4](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/3bfda2da-c6a2-4561-a4cd-e15dc939a034)
 
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/4.jpg)
 
 - 图像3预测结果：
-
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/6.jpg)
+- ![6](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/c3560628-1545-40dc-bf3b-bfffab2eec9b)
 
 - 图像4预测结果：
+![8](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/47dc53a1-fdaf-4849-8dac-f62b68d32cfe)
 
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/8.jpg)
 
 ### 非VOC数据集图像的预测结果
 
@@ -79,15 +78,18 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 
 - 图像1预测结果：
 
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/test_chair.jpg)
+![test_chair](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/bf22c9cc-9e2a-454a-b195-ae94e7f1ec8a)
+
 
 - 图像2预测结果：
 
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/test_person2.jpg)
+![test_person2](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/8b49a071-d1b5-467e-b505-2b6838b2ab19)
+
 
 - 图像3预测结果：
 
-  ![](Faster%20R%20CNN%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%9C%A8VOC%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A_images/test_train.jpg)
+![test_train](https://github.com/Nadia-Chen/FasterRCNN/assets/67884201/ffcd37ac-c2be-4fde-b515-a7eaab8ed2a4)
+
 
 ## 结论
 
