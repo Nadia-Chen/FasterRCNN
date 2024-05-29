@@ -112,4 +112,3 @@ PASCAL VOC 2012数据集是一个广泛使用的目标检测数据集，包含20
 
 模型链接：链接: https://pan.baidu.com/s/1FS3T7QGexyE_E7Sa6O_zTA?pwd=1234 提取码: 1234
 
-仓库链接：https://github.com/PengChenghao1013/neural_network_mid
